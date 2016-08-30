@@ -402,10 +402,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: REPORTY HOMELAND SECURITY LTD (8Q5D4B7EAU)";
 				INFOPLIST_FILE = TimeTableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PentLab.TimeTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6fe335ad-6288-4baa-9562-589ddf21b2f4";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTable.app/TimeTable";
 			};
 			name = Debug;
@@ -414,10 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: REPORTY HOMELAND SECURITY LTD (8Q5D4B7EAU)";
 				INFOPLIST_FILE = TimeTableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PentLab.TimeTableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6fe335ad-6288-4baa-9562-589ddf21b2f4";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTable.app/TimeTable";
 			};
 			name = Release;
